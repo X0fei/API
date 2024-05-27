@@ -1,0 +1,6 @@
+@FisrtAPI_HostAddress = http://localhost:5114
+
+GET {{FisrtAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
