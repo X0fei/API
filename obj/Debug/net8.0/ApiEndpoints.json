@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "FisrtAPI.Controllers.ValuesController",
-    "Method": "GetSensors",
-    "RelativePath": "api/Values",
+    "ContainingType": "FisrtAPI.Controllers.MeasurementsTypeController",
+    "Method": "GetMeasurementsTypes",
+    "RelativePath": "api/MeasurementsType",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[FisrtAPI.Models.Sensor, FisrtAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[FisrtAPI.Models.MeasurementsType, FisrtAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,22 +20,22 @@
     ]
   },
   {
-    "ContainingType": "FisrtAPI.Controllers.ValuesController",
-    "Method": "AddSensor",
-    "RelativePath": "api/Values",
+    "ContainingType": "FisrtAPI.Controllers.MeasurementsTypeController",
+    "Method": "AddMeasurementsType",
+    "RelativePath": "api/MeasurementsType",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "sensor",
-        "Type": "FisrtAPI.Models.Sensor",
+        "Name": "measurementsType",
+        "Type": "FisrtAPI.Models.MeasurementsType",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "FisrtAPI.Models.Sensor",
+        "Type": "FisrtAPI.Models.MeasurementsType",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -46,9 +46,9 @@
     ]
   },
   {
-    "ContainingType": "FisrtAPI.Controllers.ValuesController",
-    "Method": "GetSensorItem",
-    "RelativePath": "api/Values/{id}",
+    "ContainingType": "FisrtAPI.Controllers.MeasurementsTypeController",
+    "Method": "GetMeasurementsTypesItem",
+    "RelativePath": "api/MeasurementsType/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "FisrtAPI.Models.Sensor",
+        "Type": "FisrtAPI.Models.MeasurementsType",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,9 +72,9 @@
     ]
   },
   {
-    "ContainingType": "FisrtAPI.Controllers.ValuesController",
-    "Method": "RemoveSensor",
-    "RelativePath": "api/Values/{id}",
+    "ContainingType": "FisrtAPI.Controllers.MeasurementsTypeController",
+    "Method": "RemoveMeasurementsType",
+    "RelativePath": "api/MeasurementsType/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -87,7 +87,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "FisrtAPI.Models.Sensor",
+        "Type": "FisrtAPI.Models.MeasurementsType",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -98,9 +98,9 @@
     ]
   },
   {
-    "ContainingType": "FisrtAPI.Controllers.ValuesController",
-    "Method": "UpdateSensor",
-    "RelativePath": "api/Values/{id}",
+    "ContainingType": "FisrtAPI.Controllers.MeasurementsTypeController",
+    "Method": "UpdateMeasurementsType",
+    "RelativePath": "api/MeasurementsType/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -111,14 +111,14 @@
         "IsRequired": true
       },
       {
-        "Name": "sensor",
-        "Type": "FisrtAPI.Models.Sensor",
+        "Name": "measurementsTypeRequest",
+        "Type": "FisrtAPI.Models.MeasurementsType",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "FisrtAPI.Models.Sensor",
+        "Type": "FisrtAPI.Models.MeasurementsType",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -129,16 +129,254 @@
     ]
   },
   {
-    "ContainingType": "FisrtAPI.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "FisrtAPI.Controllers.MeteostationsController",
+    "Method": "GetMeteostations",
+    "RelativePath": "api/Meteostations",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FisrtAPI.WeatherForecast, FisrtAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[FisrtAPI.Models.Meteostations, FisrtAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.MeteostationsController",
+    "Method": "AddMeteostation",
+    "RelativePath": "api/Meteostations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "meteostations",
+        "Type": "FisrtAPI.Models.Meteostations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.Meteostations",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.MeteostationsController",
+    "Method": "GetMeteostationsItem",
+    "RelativePath": "api/Meteostations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.Meteostations",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.MeteostationsController",
+    "Method": "RemoveMeteostation",
+    "RelativePath": "api/Meteostations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.Meteostations",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.MeteostationsController",
+    "Method": "UpdateMeteostation",
+    "RelativePath": "api/Meteostations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "meteostationsRequest",
+        "Type": "FisrtAPI.Models.Meteostations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.Meteostations",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.SensorsController",
+    "Method": "GetSensors",
+    "RelativePath": "api/Sensors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FisrtAPI.Models.Sensors, FisrtAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.SensorsController",
+    "Method": "AddSensor",
+    "RelativePath": "api/Sensors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sensor",
+        "Type": "FisrtAPI.Models.Sensors",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.Sensors",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.SensorsController",
+    "Method": "GetSensorsItem",
+    "RelativePath": "api/Sensors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.Sensors",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.SensorsController",
+    "Method": "RemoveSensor",
+    "RelativePath": "api/Sensors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.Sensors",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.SensorsController",
+    "Method": "UpdateSensor",
+    "RelativePath": "api/Sensors/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sensorRequest",
+        "Type": "FisrtAPI.Models.Sensors",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.Sensors",
         "MediaTypes": [
           "text/plain",
           "application/json",

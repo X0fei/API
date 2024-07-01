@@ -1138,11 +1138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\FisrtAPI\\FisrtAPI.csproj",
+      "projectUniqueName": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\FisrtAPI.csproj",
       "projectName": "FisrtAPI",
-      "projectPath": "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\FisrtAPI\\FisrtAPI.csproj",
+      "projectPath": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\FisrtAPI.csproj",
       "packagesPath": "C:\\Users\\class_student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\FisrtAPI\\obj\\",
+      "outputPath": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\class_student\\AppData\\Roaming\\NuGet\\NuGet.Config",

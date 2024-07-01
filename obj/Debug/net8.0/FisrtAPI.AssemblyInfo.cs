@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FisrtAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb80481fb2e1a12f77a8d00e68fb06945932599c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FisrtAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FisrtAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

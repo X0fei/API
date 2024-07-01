@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1mPqfJQu28xyAcWn7d0JFBjLfCmwJzRpO2ld0R761BrvWe+SQTxKhOqF6tbeGqZ2NyseW8gmPv5y8sXOJb6zEA==",
+  "dgSpecHash": "4SEuWad2frvnb0qn8zt72Un5+Jvpb38xvhFeN3+aQnkUAV/NkTf1HaEapJSHtKmhq6JOnYRVTbw39KJni6QDnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\FisrtAPI\\FisrtAPI.csproj",
+  "projectFilePath": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\FisrtAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\class_student\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
     "C:\\Users\\class_student\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
