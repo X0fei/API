@@ -258,6 +258,88 @@
     ]
   },
   {
+    "ContainingType": "FisrtAPI.Controllers.SensorMeasurementsController",
+    "Method": "GetSensorsMeasurements",
+    "RelativePath": "api/SensorMeasurements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FisrtAPI.Models.RequestModels.SensorMeasurementsRequest, FisrtAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.SensorMeasurementsController",
+    "Method": "AddSensorMeasurements",
+    "RelativePath": "api/SensorMeasurements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "addID",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.SensorMeasurements",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FisrtAPI.Controllers.SensorMeasurementsController",
+    "Method": "RemoveSensorMeasurements",
+    "RelativePath": "api/SensorMeasurements/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "removeID",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FisrtAPI.Models.SensorMeasurements",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "FisrtAPI.Controllers.SensorsController",
     "Method": "GetSensors",
     "RelativePath": "api/Sensors",

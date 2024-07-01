@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\controllers\\measurementstypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:controllers\\measurementstypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\controllers\\sensormeasurements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:controllers\\sensormeasurements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\controllers\\meteostationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:controllers\\meteostationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\models\\requestmodels\\sensormeasurementsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:models\\requestmodels\\sensormeasurementsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\models\\sensormeasurements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:models\\sensormeasurements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\models\\meteostations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:models\\meteostations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\sensorscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:sensorscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\controllers\\measurementstypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:controllers\\measurementstypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\models\\measurementstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,6 +39,10 @@
       "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\sensorscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:sensorscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|c:\\users\\class_student\\desktop\\xofei\\api\\models\\sensors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA463E7B-13AF-4553-B324-16C036C6D44A}|FisrtAPI.csproj|solutionrelative:models\\sensors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -59,20 +71,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "SensorsContext.cs",
               "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\SensorsContext.cs",
               "RelativeDocumentMoniker": "SensorsContext.cs",
               "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\SensorsContext.cs",
               "RelativeToolTip": "SensorsContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T10:11:57.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Sensors.cs",
               "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Models\\Sensors.cs",
               "RelativeDocumentMoniker": "Models\\Sensors.cs",
@@ -85,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SensorsController.cs",
               "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Controllers\\SensorsController.cs",
               "RelativeDocumentMoniker": "Controllers\\SensorsController.cs",
@@ -98,54 +110,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MeasurementsType.cs",
               "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Models\\MeasurementsType.cs",
               "RelativeDocumentMoniker": "Models\\MeasurementsType.cs",
               "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Models\\MeasurementsType.cs",
               "RelativeToolTip": "Models\\MeasurementsType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T09:42:28.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MeasurementsTypeController.cs",
               "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Controllers\\MeasurementsTypeController.cs",
               "RelativeDocumentMoniker": "Controllers\\MeasurementsTypeController.cs",
               "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Controllers\\MeasurementsTypeController.cs",
               "RelativeToolTip": "Controllers\\MeasurementsTypeController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAA0wEEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T09:32:52.853Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "debc714f-61d8-4965-88c2-b5bf17d25c12",
-        "Display": 1,
-        "X": 284,
-        "Y": 0,
-        "Width": 1643,
-        "Height": 743,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Meteostations.cs",
               "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Models\\Meteostations.cs",
               "RelativeDocumentMoniker": "Models\\Meteostations.cs",
@@ -164,9 +155,69 @@
               "RelativeDocumentMoniker": "Controllers\\MeteostationsController.cs",
               "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Controllers\\MeteostationsController.cs",
               "RelativeToolTip": "Controllers\\MeteostationsController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAIA0wEIAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvyIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T10:24:54.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "f54b78ed-f6f4-4a2a-9977-7f66964c1be3",
+        "Display": 1,
+        "X": 28,
+        "Y": 272,
+        "Width": 1641,
+        "Height": 720,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SensorMeasurements.cs",
+              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Models\\SensorMeasurements.cs",
+              "RelativeDocumentMoniker": "Models\\SensorMeasurements.cs",
+              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Models\\SensorMeasurements.cs",
+              "RelativeToolTip": "Models\\SensorMeasurements.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:10:36.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SensorMeasurementsRequest.cs",
+              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Models\\RequestModels\\SensorMeasurementsRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RequestModels\\SensorMeasurementsRequest.cs",
+              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Models\\RequestModels\\SensorMeasurementsRequest.cs",
+              "RelativeToolTip": "Models\\RequestModels\\SensorMeasurementsRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:22:24.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SensorMeasurements.cs",
+              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Controllers\\SensorMeasurements.cs",
+              "RelativeDocumentMoniker": "Controllers\\SensorMeasurements.cs",
+              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\\API\\Controllers\\SensorMeasurements.cs",
+              "RelativeToolTip": "Controllers\\SensorMeasurements.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAswDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:11:57.224Z",
               "EditorCaption": ""
             }
           ]
